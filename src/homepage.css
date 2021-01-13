@@ -21,12 +21,12 @@
     justify-content: center;
     border: 1px solid black;
     margin: 0 7.5px 15px;
-  
-    &:first-child {
+  }
+    .menu-item:first-child {
       margin-right: 7.5px;
     }
   
-    &:last-child {
+    .menu-item:last-child {
       margin-left: 7.5px;
     }
   
@@ -38,7 +38,7 @@
       align-items: center;
       justify-content: center;
       border: 1px solid black;
-  
+    }
       .title {
         font-weight: bold;
         margin-bottom: 6px;
@@ -49,6 +49,4 @@
       .subtitle {
         font-weight: lighter;
         font-size: 16px;
-      }
-    }
-  }
+       }
