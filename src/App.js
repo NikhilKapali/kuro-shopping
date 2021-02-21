@@ -5,7 +5,9 @@ import HomePage from './pages/homepage/homepage';
 import Hats from './pages/hats/hats';
 import ShopPage from './pages/shopPage/shop';
 
-import Header from './components/header/header'
+import Header from './components/header/header';
+
+import SignInandSignUp from './pages/sign_in_sign_up/sign_in_sign_up';
 
 function App() {
   return (
@@ -13,7 +15,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
-        <Route path='/hats' component={Hats} />
+        <Route path='/signin' component={SignInandSignUp} />
         <Route path='/shop' component={ShopPage} />
 
       </Switch>
